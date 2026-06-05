@@ -16,7 +16,7 @@ st.set_page_config(
 # -------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/Plant_1_Generation_Data.csv")
+    df = pd.read_csv("Plant_1_Generation_Data.csv")
     return df
 
 df = load_data()
